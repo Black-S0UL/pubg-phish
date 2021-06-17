@@ -1,7 +1,7 @@
 # PhishPubg
 
 
-## Download zip file
+## Downloading
 
 Open Termux
 
